@@ -1,0 +1,18 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+.nav .nav-link.active {
+    background-color: white;
+    color: brown;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand-cover {
+    color: white;
+}
