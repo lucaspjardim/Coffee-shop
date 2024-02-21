@@ -52,3 +52,20 @@ body {
     height: 10px; 
     border-radius: 100%; 
 }
+
+.section-title span {
+    color: blue;
+}
+
+#about {
+    background-color: bisque;
+}
+
+.text-colored {
+    color: green;
+}
+
+.nav-menu .nav-link.active {
+    background-color: brown;
+    color: black;
+}
