@@ -6,12 +6,12 @@ body {
     background-color: brown;
 }
 
-.nav .nav-link.active {
+#menu-nav .nav .nav-link.active {
     background-color: white;
     color: brown;
 }
 
-.nav .nav-link,
+#menu-nav .nav .nav-link,
 .navbar-brand,
 .navbar-brand-cover {
     color: white;
@@ -68,4 +68,13 @@ body {
 .nav-menu .nav-link.active {
     background-color: brown;
     color: black;
+}
+
+#menu {
+    background-color: aqua;
+}
+
+#menu .card {
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px black;
 }
