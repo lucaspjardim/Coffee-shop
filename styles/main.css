@@ -16,3 +16,39 @@ body {
 .navbar-brand-cover {
     color: white;
 }
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.carousel-item {
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption.text-left {
+    left: 200px;
+    right: auto;
+    transform: translateX(0);
+    width: auto;
+    margin: 0;
+    margin-bottom: 200px;
+}
+
+.carousel-caption h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px; 
+    border-radius: 100%; 
+}
