@@ -29,7 +29,6 @@ body {
 .carousel-item img {
     object-fit: cover; 
     height: 100%;
-    width: 100%;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -114,6 +113,23 @@ body {
     display: none;
 }
 
+.warning {
+    background-color: rgb(241, 241, 76);
+    margin: 8px auto;
+    font-size: 18px;
+    font-weight: bold; 
+    padding: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    text-transform: uppercase;
+    display: none;
+}
+
+.footer{
+    background-color: #262625;
+    color: white;
+}
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
