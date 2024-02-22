@@ -42,7 +42,6 @@ body {
 }
 
 .carousel-caption h2 {
-    font-family: Bebas Neue, sans-serif;
     font-size: 60px;
     font-weight: bold;
 }
@@ -51,6 +50,10 @@ body {
     width: 10px;
     height: 10px; 
     border-radius: 100%; 
+}
+
+.section-title {
+    font-family: Bebas Neue, sans-serif;
 }
 
 .section-title span {
@@ -65,7 +68,8 @@ body {
     color: green;
 }
 
-.nav-menu .nav-link.active {
+.nav-menu .nav-link.active,
+#contact button {
     background-color: brown;
     color: black;
 }
@@ -77,4 +81,17 @@ body {
 #menu .card {
     border: 2px solid black;
     box-shadow: 10px 10px 5px black;
+}
+
+#news .card {
+    border: 1px solid grey
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
